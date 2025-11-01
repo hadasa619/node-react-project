@@ -1,0 +1,52 @@
+form{
+    width: 300px;
+    height: 600px;
+    background-color: #1946572d;
+    border-radius: 10% ;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #194657;
+    text-decoration: none;
+    font-style: "Segoe UI Semibold";
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    gap: 29px;
+    direction: rtl;
+}
+form div{
+    height: 35px;
+}
+.templateLg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.mainLg{
+    height: 75vh;
+    width: 80%;
+    background-color: rgb(221, 231, 240);
+    border-radius: 2%;
+    position: relative;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        z-index: 2;
+
+}
+.btnLg{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.p-toast{
+    height: max-content;
+}

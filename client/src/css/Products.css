@@ -1,0 +1,162 @@
+
+.template {
+    width: 100vw;
+    display: flex;
+    /* place-content: center; */
+    justify-content: center;
+    font-family: "Gisha";
+}
+
+.main {
+    height: 75vh;
+    width: 80vw;
+    background-color: rgb(221, 231, 240);
+    border-radius: 2%;
+    position: relative;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    right: 2%;
+    top: 100px;
+}
+
+.in {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+.lable {
+    display: grid;
+    place-content: center;
+}
+
+.image1 {
+    width: 400px;
+    height: 250px;
+    background-image: url("../../public/simple/1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 25%;
+    top: 38%;
+}
+
+.image2 {
+    width: 400px;
+    height: 250px;
+    background-image: url("../../public/simple/3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 25%;
+    top: 38%;
+}
+
+.image3 {
+    width: 400px;
+    height: 250px;
+    background-image: url("../../public/simple/2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 25%;
+    top: 38%;
+}
+
+.button {
+    width: 150px;
+    background-color: rgb(212, 0, 81);
+    border-color: rgb(212, 0, 81);
+}
+
+.button:hover {
+    background-color: rgb(174, 0, 67);
+    transition: all 1s 0.2ms;
+}
+
+.kamut button {
+    background-color: #194657;
+    border-color: #194657;
+}
+
+.kamut input {
+    border-color: #194657;
+}
+
+.specialDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.inCart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1d8db;
+    box-shadow: 0 0 20px;
+    border-radius: 5%;
+    width: 100%;
+    height: 170px;
+    position: relative;
+}
+
+@media screen and (max-width:900px) {
+    .image1,.image2,.image3{
+        top: 82%;
+    }
+    .imgRes {
+        position: absolute;
+        top: 60%;
+    }
+
+    .main {
+        height: 110vh;
+    }
+
+}
+
+@media screen and (max-width:520px){
+        .image1,.image2,.image3{
+        top: 100%;
+        width: 200px;
+    }
+    .imgRes{
+        left: 0px;
+    }
+      .main{
+        height: 120vh;
+    }
+  
+}
+@media screen and (max-width:800px){
+    .manageRes{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:500px){
+    .smallManage{
+        flex-direction: column;
+    }
+    
+}
