@@ -6,6 +6,13 @@
 
 הפרויקט מתקשר עם API שנמצא בכתובת: [https://github.com/hadasa619/ChineseRaffleApi](https://github.com/hadasa619/ChineseRaffleApi)
 
+## צילומי מסך
+
+![דף מוצרים](screenshots/products.png)
+![מוצר בודד](screenshots/singleProduct.png)
+![עגלת קניות](screenshots/cart.png)
+![דף התחברות](screenshots/login.png)
+
 ## טכנולוגיות המשמשות
 
 ### צד הלקוח (Frontend)
